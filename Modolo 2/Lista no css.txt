@@ -1,0 +1,45 @@
+/*
+.cupcake::before {
+    content: ' 1.5 - '; 
+}
+
+.donut::before {
+    content: '1.6 - ';
+}
+.eclair::before {
+    content: '3.0 - ';
+}
+.froyo::before {
+    content: '2.2 - ';
+}
+.gingerbread::before {
+    content: '2.3 - ';
+}
+.honeycomb::before {
+    content: '3.0 - ';
+}
+.ice-crem-sandwich::before {
+    content: '4.0 - ';
+}
+.jelly-bean::before {
+    content: '4.1 - ';
+}
+.kitkat::before {
+    content: '4.4 - ';
+}
+.lolipop::before {
+    content: '5.0 - ';
+}
+.marshmallow::before {
+    content: '6.0 - ';
+}
+.nougat::before {
+    content: '7.0 - ';
+}
+.oreo::before {
+    content: '8.0 - ';
+}
+.pie::before {
+    content: '9.0 - ';
+}
+*/
