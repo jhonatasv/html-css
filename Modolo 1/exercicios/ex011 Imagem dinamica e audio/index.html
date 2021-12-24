@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem Flexíveis</title>
+</head>
+<body>
+    <h1>imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplimente aumente e diminua o tamanho do seu navegador</p>
+                    <!-- (srcset) vai configurar o nome da imagem que será carregada quando o tamano indicado for atingido-->
+    <picture>       <!--(Media indica o tamanho máximoa ser considerado para carregar a imagem indicada no atributo (srcset))-->
+        <source media="(max-width: 750px)" srcset="imagem/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagem/foto-m.png" type="image/png">
+        <img src="imagem/foto-g.png" alt="foto-m">
+    </picture>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir Áudio em HTML 5</p>
+     <!-- O atributo (preload) indica se o áudio será pré-carregado ou não e aceita três valores
+    <(metadata) vai carregar apenas as informações de direitos, etc-->
+    <audio preload="metadata" controls>
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <source src="midia/happy-mistake.mp3" type="audio/mpeg">
+        <p>Seu navegador não suporta Áudio <a href="midia/guanacast-33.mp3" download="guanacast" type="audio/mp3"></a></p>
+    </audio>
+     
+</body>
+</html>
