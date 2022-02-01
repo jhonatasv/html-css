@@ -1,0 +1,112 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.nav-bar {
+    background-color: blueviolet;
+    height: 80px;
+    width: 100%;
+}
+
+label.logo {
+    color: bisque;
+    font-size: 2em;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+.nav-elemente {
+    float: right;
+    margin-right: 20px;
+}
+
+.nav-elemente li {
+    display: inline-block;
+    line-height: 80px;
+    margin:  0 5px;
+}
+
+.nav-elemente li a {
+    color: white;
+    font-size: 17px;
+    border-radius: 3px;
+    padding: 7px 13px;
+    text-transform: uppercase;
+}
+
+.nav-elemente a:hover {
+    background: rgb(165, 112, 214);
+    transition: 0.5s;
+}
+
+.menu-button {
+    font-size: 27px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 10px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+@media (max-width: 952px) {
+    label.logo {
+      font-size: 30px;
+      padding-left: 50px;
+    }  
+
+    .nav-elemente a {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 858px) {
+    .menu-button {
+        display: block;
+    }
+
+    .nav-elemente {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(68, 9, 136);
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all 0.5s;
+    }
+
+    .nav-elemente li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    .nav-elemente li a {
+      font-size: 20px;
+    }
+    
+    .nav-elemente a:hover {
+        background: none;
+        color: rgba(42, 165, 114, 0.534);
+        font-size: 1em;
+    }
+    
+    #check:checked ~ ul {
+        left: 0%;
+    }
+
+}
