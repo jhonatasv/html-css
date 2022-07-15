@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+:root {
+    ---cor-links: #fff;
+    ---cor-hover-link: #1BE691;
+    ---background-card-item: #E3E0E0;
+    ---background-card-info: #4946462d;
+    ---modulo-display-none: #2D333B;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 90vh;
+}
+
+.nav_link {
+    border-radius: 3px;
+    padding: 5px; 
+    color:  var(---cor-links);
+    transition: all 0.3s ease;
+}
+
+.cor_link:hover{
+    color: var(---cor-hover-link);
+} 
+
+.modulo-display-none {
+    display: flex;
+    flex-direction: column;
+    width: 135px;
+    padding: 10px 0;
+    row-gap: 10px;
+    border-radius: 6px;
+    background-color: var(---modulo-display-none);
+    box-shadow: 1px 1px 2px 1px #00000094;
+    align-items: center;
+     /* display: none;  */
+    z-index: 2;
+    position: relative;
+
+    /* top: 317px; 
+    left: 115px; 
+    bottom: 270px; */
+}
+
+.background_link{
+    padding: 5px 30px;
+}
+
+.background_link:hover {
+    background-color: var(---cor-hover-link);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(395px, 1fr));
+    row-gap: 20px;
+    justify-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 5px;
+}
+
+.projeto-img {
+    width: 300px;
+    border-radius: 6px;
+    transition: all 0.4s ease-in;
+}
+
+.projeto-img:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 17px 7px #0000000d;
+}
+
+.card-item {
+    background-color: var(---background-card-item);
+    padding: 10px 0 0;
+    width: 325px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.card-info {
+    background-color: var(---background-card-info);
+    padding: 5px 0;
+}
+
+footer > p {
+    color: var(---cor-links);
+    margin-left: 2px;
+}
+
+.link-github {
+    color: var(---cor-links);
+    margin-left: 5px;
+    transition: all 0.3s ease;
+}
+
+.link-github:hover {
+   color: var(---cor-hover-link);
+}
+
+
