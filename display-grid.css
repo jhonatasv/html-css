@@ -6,7 +6,7 @@
 
 .display-grid {
     display: grid;
-    grid-template-columns: 1fr 9fr;
+    grid-template-columns: 1fr 10fr;
     grid-template-rows: 95vh;
     grid-template-areas: ' h m'
                           'h m'
@@ -32,4 +32,28 @@ footer {
     text-align: center;
     padding-top: 5px;
     background-color: var(---background-footer);
+}
+
+
+@media (max-width: 1035px) {
+    .navbar {
+        flex-direction: row;
+        height: 5vh;
+        justify-content: end;
+    }
+
+    .header {
+        position: sticky;
+        height: 6vh;
+    }
+
+    .display-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: none;
+        grid-template-areas: ' h h'
+                              'm m'
+                              'f f';   
+        
+    }
 }
