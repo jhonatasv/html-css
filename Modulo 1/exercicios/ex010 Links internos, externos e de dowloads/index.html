@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+</head>
+<body>
+    <h1>Usando links externos</h2>
+                <!-- o Nome do Atributo (hreflang) inidcar qual é o idioma da Pagina-->
+    <p>Você pode acessar o meu<a href="https://github.com/jhonatasv?tab=repositories" target="_blank" hreflang="en" rel="external">repositório público no GiHub</a></p>
+    <p>Você também pode acessar o meu <a href="https://twitter.com/Jhonatasv_" target="_blank" hreflang="pt-br" rel="external">Twitter</a></p>
+    <h1>Usando links internos</h2>
+                <!--O Nome do (Target) é como sua pagina vai Abrir,  o Atributo (_self) indicar que ela vai Abrir na mesma Pagina-->
+    <p>Esta é a primeira página do site. Se você quise, pode acessar também a minha <a href="index2.html" target="_self" hreflang="pt-br" rel="next">segunda pagina</a></p>
+    <p>Você também pode acessar a nossa <a href="/noticias/index3.html"  target="_self" hreflang="pt-br" rel="next">Página de Notícias</a></p>
+    <h1>Links para Download</h2>
+    <ul>       <!-- O Nome do atributo (Download) é para indicar o nome do Arquivo, (Type) é também para indicar qual é o tipo de Arquivo vai baixar-->
+        <li><a href="./arquivos/Palace.jpg" download="Palace.jpg" type="image/jpeg">Baixar o livro em PDF</a></li>
+        <li><a href="arquivos/HTML, CSS.zip" download="Html e css.zip" type="application/zip">Livro compactado em ZIP</a></li>
+    </ul>
+</body>
+</html>

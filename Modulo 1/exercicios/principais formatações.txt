@@ -1,0 +1,5 @@
+ <h1>principais formatações</h1>
+    <h2>Negrito / Destaque</h2>
+    <p>Nessa frase termos um <strong>termo em destaque</strong></p>
+        <h2>Italico / Énfase</h2>
+        <p>Nessa frase, termos em <em>Italico incriveis</em></p>
