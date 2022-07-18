@@ -15,6 +15,8 @@
     ---background-card-item: #E3E0E0;
     ---background-card-info: #4946462d;
     ---modulo-display-none: #2D333B;
+    ---cor-black: #2D333B;
+    ---cor-blue: #4169e1a9;
 }
 
 .navbar {
@@ -76,7 +78,7 @@
     margin: 10px;
 }
 
-.title {
+.modulo-title {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -88,6 +90,7 @@
     height: 210px;
     border-radius: 6px;
     transition: all 0.4s ease-in;
+    box-shadow: 0 4px 17px 7px #0000000d;
 }
 
 .projeto-img:hover {
@@ -106,6 +109,22 @@
 .card-info {
     background-color: var(---background-card-info);
     padding: 5px 0;
+    transition: all 0.5s ease;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.card-info:hover {
+    box-shadow: -1px 2px 7px 0px #0000001b;
+    color: var(---cor-hover-link);
+}
+
+.link-codigo {
+    color: var(---cor-black);
+    transition: all 0.5s ease;
+}
+
+.link-codigo:hover {
+    color: var(---cor-blue);
 }
 
 footer > p {
@@ -113,14 +132,12 @@ footer > p {
     margin-left: 2px;
 }
 
-.link-github {
+.link-perfil {
     color: var(---cor-links);
     margin-left: 5px;
     transition: all 0.3s ease;
 }
 
-.link-github:hover {
+.link-perfil:hover {
    color: var(---cor-hover-link);
 }
-
-
