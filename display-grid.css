@@ -37,14 +37,20 @@ footer {
 
 @media (max-width: 1035px) {
     .navbar {
+        display: flex;
         flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 20px;
+        padding:0 15px;
         height: 5vh;
-        justify-content: end;
+        margin: 5px 0;
+        width: auto;
     }
 
     .header {
         position: sticky;
-        height: 6vh;
+        height: 7vh;
     }
 
     .display-grid {
