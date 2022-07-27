@@ -19,6 +19,11 @@
     ---cor-blue: #4169e1a9;
 }
 
+html,
+body {
+    scroll-behavior: smooth;
+}
+
 .navbar {
     display: flex;
     flex-direction: column;
