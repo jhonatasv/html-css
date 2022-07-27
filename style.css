@@ -49,7 +49,7 @@
 .content-dropdown {
     display: none;
     width: 99px;
-    margin-left: -7px;
+    margin-left: -4px;
     margin-top: 6px;
     padding: 10px 5px;
     background-color: var(---modulo-display-none);
