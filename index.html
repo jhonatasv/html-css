@@ -442,10 +442,34 @@
                     </div>
                 </div>
             </section>
+            <span id="button-top" class="button-top">^</span>
         </main>
         <footer>
             <p>&copy;<a class="link-perfil" href="https://github.com/jhonatasv" target="_blank">Jhonatas</a></p>
         </footer>
     </div>
+
+    <script>
+       const btn = document.querySelector('#button-top')
+      
+       
+       btn.addEventListener('click', () => {   
+           window.scrollTo(0,0)
+           
+        })
+        
+        function ocultar() {
+            if(window.scrollY > 390)  {
+                btn.style.display = 'flex'
+            } else {
+                btn.style.display = 'none'
+            }
+            
+        }
+        ocultar()
+        
+        document.addEventListener('scroll', ocultar)
+
+    </script>
 </body>
 </html>
