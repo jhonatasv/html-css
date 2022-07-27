@@ -24,7 +24,7 @@
 main {
     grid-area: m;
     background-color: var(---background-main);
-    padding-top: 20px;
+    padding-top: 45px;
 }
 
 footer {
