@@ -24,6 +24,7 @@
 main {
     grid-area: m;
     background-color: var(---background-main);
+    padding-top: 20px;
 }
 
 footer {
@@ -61,5 +62,15 @@ footer {
                               'm m'
                               'f f';   
         
+    }
+}
+
+@media(max-width: 375px) {
+    .card-item {
+        width: 265px;
+    }
+    .projeto-img {
+        width: 250px;
+        height: auto;
     }
 }
