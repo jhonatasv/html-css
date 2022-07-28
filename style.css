@@ -172,22 +172,3 @@ footer > p {
     transform: translate(-10%, -75%);
 } 
 
-/* .button-top button-top-on {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 40px;
-    height: 40px;
-    padding: 10px;
-    font-size: 17px;
-    cursor: pointer;
-    border-radius: 15px;
-    background-color: var(---cor-black);
-    color: var(---background-card-item);
-    box-shadow: rgb(0 0 0 / 44%) 0px 0px 2px 1px;
-   
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    transform: translate(-10%, -75%);
-} */
