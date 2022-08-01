@@ -17,8 +17,6 @@ body {
     background-position: top center;
     background-size: cover;
     background-attachment: fixed;
-
-    /* height: 100vh; */
 }
 
 .conteiner-logo {
@@ -68,12 +66,20 @@ a {
     height: 627px;
 }
 
+img {
+    width: 311px;
+    height: 627px;
+    background-size: cover;
+}
+
 iframe {
+    width: 269px;
+    height: 475px;
+    
     position: absolute;
-    left: 26px;
+    left: 21px;
     right: 0;
     bottom: 79px;
     transform: translate(0, 0);
-    height: 475px;
-    width: 268px;
+    
 }
