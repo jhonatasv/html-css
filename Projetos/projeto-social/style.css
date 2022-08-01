@@ -14,12 +14,11 @@ body {
 body {
     background-image: url(imagens/fundo-madeira.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
     background-position: top center;
-
-    /* background: url(imagens/fundo-madeira.jpg) no-repeat top center;
     background-size: cover;
-    background-attachment: fixed; */
+    background-attachment: fixed;
+
+    /* height: 100vh; */
 }
 
 .conteiner-logo {
@@ -52,36 +51,29 @@ a {
 .conteiner{
     display: flex;
     justify-content: center;
-
 } 
 
 .tela {
-    position: relative;
-    left: 0;
-    right: 0;
-    bottom: 387px;
-    transform: translate(0, 0);
-
- /* left: 50%;
- right: 50%;
- transform: translate(50%, 50%); */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ 
+    /* right: 0; */
+    /* bottom: 400px; */
 } 
 
-iframe {
-    /* position: absolute;
-    left: 0;
-    right: 10px;
-    bottom: 60px;
-    transform: translate(0, 0);
-    height: 500px;
-    width: 280px; */
+.telefone {
+    width: 311px;
+    height: 627px;
+}
 
+iframe {
     position: absolute;
     left: 26px;
     right: 0;
     bottom: 79px;
     transform: translate(0, 0);
     height: 475px;
-    width: 267px;
-    
+    width: 268px;
 }
