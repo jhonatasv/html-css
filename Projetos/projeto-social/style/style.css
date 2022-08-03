@@ -69,3 +69,33 @@ iframe {
     bottom: 79px;
     transform: translate(0, 0);
 }
+
+@media(max-width:589px) {
+    .nav-logo {
+        flex-direction: row;
+        justify-content: flex-end;
+        column-gap: 5px;
+        flex-wrap: wrap;
+    }
+
+    .nav-logo img {
+        width: 45px;
+    }
+
+    .tela {
+        top: 60%;
+    }
+
+    .telefone {
+        width: 280px;
+        height: auto;
+    }
+
+    iframe {
+        width: 240px;
+        height: 425px;
+
+        left: 20px;
+        bottom: 72px;
+    }
+}
