@@ -74,3 +74,37 @@ iframe {
     transform: translate(-10px, -10px);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.400);
 }
+
+@media(max-width: 650px) {
+   .rede-sociais {
+       flex-direction: row;
+       justify-content: flex-end;
+       column-gap: 5px;
+       flex-wrap: wrap;
+   } 
+   
+   .rede-sociais img {
+       width: 40px
+   }
+
+   .rede-sociais img:hover {
+        transform: translate(-10px, -6px);
+   }
+
+   .telefone {
+       top: 60%;
+   }
+
+   .telefone {
+        width: 280px;
+        height: auto;
+   }
+
+   iframe {
+        width: 240px;
+        height: 425px;
+
+        bottom: -285px;
+   }
+
+}
