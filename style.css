@@ -152,8 +152,6 @@ footer > p {
 }
 
 .button-top {
-    display: flex;
-    display: none;
     align-items: center;
     justify-content: center;
     width: 40px;
@@ -165,10 +163,15 @@ footer > p {
     background-color: var(---cor-black);
     color: var(---background-card-item);
     box-shadow: rgb(0 0 0 / 44%) 0px 0px 2px 1px;
+    transition: all 0.3s ease;
    
     position: fixed;
     bottom: 0;
     right: 0;
     transform: translate(-10%, -75%);
 } 
+
+.button-top:hover {
+    padding-top: 5px;
+}
 
