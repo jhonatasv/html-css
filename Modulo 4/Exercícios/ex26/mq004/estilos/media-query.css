@@ -13,8 +13,26 @@ Grandes telas:   Acima de 1201px
 */
 
 @media print { /* Impressão*/
+    * {
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    main {
+        width: 90vw;
+        border: 2px solid black;
+    }
+
+    main::after {
+        content: 'Esse site foi através do Curso em Video';
+    }
+
+    h1 {
+        text-shadow: none;
+        color: black;
+    }
+
     /* body {
-        background: black url(../imagens/imagens/back-print.jpg);
+        background: black url(../imagens/imagens/back-print.jpg); (Não funcionar).
     } */
 
     img.phone {display: none;}
@@ -43,6 +61,10 @@ Grandes telas:   Acima de 1201px
 @media screen and (min-width: 1201px) {  /* Grandes Telas */
    body {
        background-image: url(../imagens/imagens/back-tv.jpg);
+    }
+
+    main {
+        width: 700px;
     }
    
     img.phone {display: none;}
