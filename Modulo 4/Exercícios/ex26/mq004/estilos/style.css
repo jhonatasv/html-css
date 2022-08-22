@@ -46,3 +46,12 @@ img.tablet { display: none;}
 img.print { display: none;}
 img.pc {display: none;}
 img.tv {display: none;}
+
+
+@media screen and (max-width: 767px) {
+    main {
+       width: 270px;
+       font-size: 0.7em;
+    }
+   
+}
