@@ -8,18 +8,17 @@
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="estilos/style.css" media="all">
-    <link rel="stylesheet" href="estilos/media-query.css">
 </head>
 <body>
     <header>
         <h1 class="title">Meu Site</h1>
-        <i id="burguer" class="material-icons">menu</i>
+        <i id="menu-mobile" class="material-icons">menu</i>
         <nav class="nav-bar">
-                <a href="#">Opção 1</a>
-                <a href="#">Opção 2</a>
-                <a href="#">Opção 3</a>
-                <a href="#">Opção 4</a>
-                <a href="#">Opção 5</a>
+            <a href="#">Opção 1</a>
+            <a href="#">Opção 2</a>
+            <a href="#">Opção 3</a>
+            <a href="#">Opção 4</a>
+            <a href="#">Opção 5</a>
         </nav>
     </header>
     <main>
@@ -47,6 +46,22 @@
             </p>
         </article>
     </main>
-    
+    <script>
+        const iconMenu = document.querySelector('#menu-mobile')
+        const nav =  document.querySelector('.nav-bar')
+
+        let teste = nav.className
+        iconMenu.addEventListener('click', () =>{
+            if(nav.className === 'nav-bar') {
+                nav.className = 'nav-bar-on'
+                console.log('aberto')
+                
+            } else if(nav.className === 'nav-bar-on') {
+                nav.className = 'nav-bar'
+                console.log('fechado')
+            }
+        })
+        
+    </script>
 </body>
 </html>
