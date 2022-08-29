@@ -11,7 +11,11 @@ Grandes telas:   Acima de 1201px
 */
 
 @media screen and (min-width: 768px){
+    main {
+        width: 740px; /* correção de quebra em 768*/
+    }
     
+
     i#burguer {
         display: none;
     }
