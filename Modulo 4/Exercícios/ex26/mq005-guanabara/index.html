@@ -8,6 +8,7 @@
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
 </head>
 <body>
     <header>
@@ -60,8 +61,10 @@
         function clickMenu() {
             if(itens.style.display === 'block') {
                 itens.style.display = 'none'
+                console.log('sim')
             } else {
                 itens.style.display = 'block'
+                console.log('não')
     
             }
          
