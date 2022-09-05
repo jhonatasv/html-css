@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    .card-img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width:400px) {
+    .conteiner {
+        padding: 14px 20px 35px;   
+    }
+    .card-product {
+        padding: 4px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+    .conteiner {
+        padding: 14px 5px 35px;
+    }
+
+    .card-img {
+        width: auto;
+    }
+
+    .conteiner-ifon, 
+    .conteiner-icon {
+        padding: 20px 35px  10px;
+    }
+    
+}
+
+@media (max-width: 328px) {
+    .card-product {
+        padding: 0;
+    }
+}
+
+@media  (max-width: 319px) {
+    header {
+        padding: 25px 7px;
+    }
+
+    .conteiner {
+        padding: 14px 3px 35px;
+    }
+
+    .card-product {
+        width: 150px;
+    }
+
+    .card-img {
+        width: 150px;
+    }
+
+} 
+
+@media (max-width: 310px) { /*Galaxy Fold*/
+    .conteiner {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 25px;
+    }
+}
