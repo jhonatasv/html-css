@@ -1,1 +1,147 @@
 @charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+:root {
+    ---background: #a9a9a9;
+    ---backgroun-white: #fff;
+    ---color-white: #fff;
+    ---background-label: #a9a9a996;
+    ---background-btn-entrar:#5f9ea0d5;
+    ---backgroundtb-hover-senha: #6495ed;
+    --background-btn-hover: ;
+    ---background-input-user: #ffffffd5;
+}
+
+body, html {
+    width: 100%;
+    /* height: 100vw; */
+    background-color: var(---background);
+}
+
+.conteiner {
+    display: flex;
+    padding: 10px;
+    /* width: 900px; */
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.teste {
+    border-radius: 8px;
+    box-shadow: 0 4px 12px 0 rgb(0 0 0 / 23%);
+  
+    /* box-shadow: 1px 0px 4px 0px #00000080; */
+    /* width: 271px; */
+}
+
+form {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 519px;
+    width: 249px;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    background-color: var(---backgroun-white);
+    padding: 10px 10px 5px;
+    border: none;
+
+    border-radius: 0 0 8px 8px;
+
+    /* width: 50%; */
+}
+
+.title {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 11px;
+}
+
+p {
+    font-size: 0.90em;
+}
+
+.logo-login {
+    /* width: 350px; */
+    height: 240px;
+    background: url(../img/underland.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    background-position: center  center;
+
+    border-radius: 8px 8px 0 0;
+    /* width: 50%; */
+}
+
+label {
+    display: flex;
+    align-items: center;
+    width: 226px;
+    margin: 5px 0;
+    padding: 6px;
+    border-radius: 5px;
+    /* background-color: var(---background-label); */
+    background-color: var(---background-label);
+}
+
+input {
+    padding: 6px;
+    border: none;
+    border-radius: 7px;
+}
+
+.input-user {
+    background-color: var(---background-input-user);
+}
+
+.btn {
+    margin: 7px 0 4px;
+    padding: 9px;
+    transition: background 0.5s ease-out;
+}
+
+.btn-entrar {
+    cursor: pointer;
+    background-color: var(---background-btn-entrar);
+    color: var(---color-white);
+}
+
+.btn-entrar:hover {
+    background-color: #5f9ea093;
+}
+
+.btn-recupera-senha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    border-radius: 7px;   
+    border: solid 1px #5f9ea093;
+    color: var(---background-btn-entrar);
+    cursor: pointer;
+    transition: background 0.5s ease-out;
+    text-decoration: none;
+    /* background-color: #6494ed50; */
+}
+
+.btn-recupera-senha:hover {
+    background-color: var(---backgroundtb-hover-senha);
+    color: var(---color-white);
+}
+
+.icon-msg {
+    font-size: 20px;
+}
