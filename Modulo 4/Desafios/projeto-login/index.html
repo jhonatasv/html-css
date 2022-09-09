@@ -6,11 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="assets/style/style.css">
 </head>
 <body>
     <main>
-
+        <section class="conteiner">
+            <div class="teste">
+                <form action="" method="get" autocomplete="on">
+                    <fieldset>
+                        <h1 class="title">Login</h1>
+                        <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+                        <label for="uemail"><i class="material-icons">person</i>
+                            <input type="email" name="uemail" id="uemail"class="input-user" required placeholder="Seu e-mail">
+                        </label>
+                        <label for="usenha"><i class="material-icons">key</i>
+                            <input type="password" name="usenha" id="usenha" class="input-user" required placeholder="Sua senha" minlength="8" maxlength="8">
+                        </label>
+                        <input class="btn btn-entrar" type="submit" value="Entrar">
+                        <a href="#" class="btn-recupera-senha">Esqueci a senha 
+                            <i class="material-icons icon-msg">email</i>
+                        </a>
+                        <!-- <i id="menu-mobile" class="material-icons">email</i> -->
+                        <!-- <input class="btn btn-recupera-senha" type="button" value="Esqueci a senha"> -->
+                    </fieldset>
+                    <div class="logo-login"></div>
+                    <!-- <img class="logo-login" src="assets/img/underland.jpg" alt=""> -->
+                </form>
+            </div>
+        </section>
     </main>
 </body>
 </html>
