@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    form {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 645px;
+        height: 290px;
+    }
+
+    fieldset {
+        /* width: 90%;*/
+        border-radius: 0 8px 8px 0;
+    }
+
+    .logo-login {
+        width: 500px;
+        height: auto;
+        border-radius: 8px 0 0 8px;
+    }
+    
+    label {
+        width: auto;
+    }
+
+    .input-user {
+        width: 335px;
+        margin-left: 5px;
+    }
+}
