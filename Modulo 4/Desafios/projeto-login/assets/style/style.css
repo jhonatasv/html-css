@@ -35,12 +35,9 @@ body, html {
     align-items: center;
 }
 
-.teste {
+.border {
     border-radius: 8px;
     box-shadow: 0 4px 12px 0 rgb(0 0 0 / 23%);
-  
-    /* box-shadow: 1px 0px 4px 0px #00000080; */
-    /* width: 271px; */
 }
 
 form {
@@ -104,6 +101,7 @@ input {
 
 .input-user {
     background-color: var(---background-input-user);
+    margin-left: 2px;
 }
 
 .btn {
