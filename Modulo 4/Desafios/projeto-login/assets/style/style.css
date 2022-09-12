@@ -93,7 +93,6 @@ label {
     margin: 5px 0;
     padding: 6px;
     border-radius: 5px;
-    /* background-color: var(---background-label); */
     background-color: var(---background-label);
 }
 
@@ -108,7 +107,7 @@ input {
 }
 
 .btn {
-    margin: 7px 0 4px;
+    margin: 4px 0 4px;
     padding: 9px;
     transition: background 0.5s ease-out;
 }
@@ -127,14 +126,12 @@ input {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 6px;
     border-radius: 7px;   
     border: solid 1px #5f9ea093;
     color: var(---background-btn-entrar);
     cursor: pointer;
     transition: background 0.5s ease-out;
     text-decoration: none;
-    /* background-color: #6494ed50; */
 }
 
 .btn-recupera-senha:hover {
