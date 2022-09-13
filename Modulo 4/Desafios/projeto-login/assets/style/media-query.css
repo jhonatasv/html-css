@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 769px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
     form {
         display: flex;
         flex-direction: row-reverse;
@@ -25,6 +25,43 @@
 
     .input-user {
         width: 335px;
+        margin-left: 5px;
+    }
+}
+
+@media screen and (min-width:993px) {
+    form {
+        display: flex;
+        flex-direction: row;
+        width: 770px;
+        height: 340px;
+    }
+
+    fieldset {
+        border-radius: 8px 0 0 8px;
+    }
+
+    .title {
+        padding: 20px 0;
+        font-size: 1.7em;
+    }
+
+    P {
+        font-size: 1em;
+    }
+
+    .logo-login {
+        width: 555px;
+        height: auto;
+        border-radius: 0 8px 8px 0;
+    }
+    
+    label {
+        width: auto;
+    }
+
+    .input-user {
+        width: 400px;
         margin-left: 5px;
     }
 }
