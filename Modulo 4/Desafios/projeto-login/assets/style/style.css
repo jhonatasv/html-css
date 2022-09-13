@@ -45,6 +45,7 @@ form {
     flex-direction: column-reverse;
     height: 519px;
     width: 249px;
+    transition: all 0.3s cubic-bezier(0.94, -0.05, 1, 1);
 }
 
 fieldset {
@@ -80,6 +81,7 @@ p {
     background-position: center  center;
 
     border-radius: 8px 8px 0 0;
+    transition: all 0.5s ease-in;
     /* width: 50%; */
 }
 
