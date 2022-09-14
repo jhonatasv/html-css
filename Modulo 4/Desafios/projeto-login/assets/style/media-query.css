@@ -1,6 +1,10 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
+    body, html {
+       background-image: linear-gradient(rgba(169, 169, 169, 0.576),  rgba(9, 9, 121, 0.761));
+    }
+  
     form {
         display: flex;
         flex-direction: row-reverse;
@@ -29,6 +33,10 @@
 }
 
 @media screen and (min-width:993px) {
+    body, html {
+        background-image: linear-gradient(rgba(169, 169, 169, 0.576),  rgba(9, 9, 121, 0.761));
+    }
+
     form {
         display: flex;
         flex-direction: row;
