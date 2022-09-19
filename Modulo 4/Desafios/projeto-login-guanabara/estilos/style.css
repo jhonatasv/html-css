@@ -17,7 +17,6 @@
     ---color-green: #49a09d;
     ---color-lilac: #5f2c82;
     ---color-white: #fff;
-    ---color-black: ;
 }
 
 html, body {
@@ -45,6 +44,9 @@ main{
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+  
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 .imagem {
@@ -52,7 +54,6 @@ main{
     background: left bottom url(../imagens/metal.jpg) no-repeat;
     height: 200px;
     background-size: cover;
-    /* border-radius: 20px 20px 0 0; */
 }
 
 .formulario {
