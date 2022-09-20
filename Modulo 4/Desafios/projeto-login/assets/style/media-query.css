@@ -1,8 +1,12 @@
 @charset "UTF-8";
 
+:root {
+    ---background-linear: linear-gradient(rgba(169, 169, 169, 0.576),  rgba(9, 9, 121, 0.761));
+}
+
 @media screen and (min-width: 768px) and (max-width: 992px) {
     body, html {
-       background-image: linear-gradient(rgba(169, 169, 169, 0.576),  rgba(9, 9, 121, 0.761));
+       background-image: var(---background-linear);
     }
   
     form {
@@ -34,7 +38,7 @@
 
 @media screen and (min-width:993px) {
     body, html {
-        background-image: linear-gradient(rgba(169, 169, 169, 0.576),  rgba(9, 9, 121, 0.761));
+        background-image: var(---background-linear);
     }
 
     form {
