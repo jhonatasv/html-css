@@ -2,6 +2,7 @@
 
 :root {
     ---background-linear: linear-gradient(rgba(169, 169, 169, 0.576),  rgba(9, 9, 121, 0.761));
+    ---padding: 20px 0;
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
@@ -13,15 +14,26 @@
         display: flex;
         flex-direction: row-reverse;
         width: 645px;
-        height: 290px;
+        width: 700px;
+        height: 340px;
     }
 
     fieldset {
         border-radius: 0 8px 8px 0;
+        padding: 10px;
+        width: 50%;
+    }
+
+    .title {
+        padding: var(---padding);
+    }
+
+    p {
+        font-size: 0.95em;
     }
 
     .logo-login {
-        width: 500px;
+        width: 50%;
         height: auto;
         border-radius: 8px 0 0 8px;
     }
@@ -44,16 +56,18 @@
     form {
         display: flex;
         flex-direction: row;
-        width: 770px;
+        width: 900px;
         height: 340px;
     }
 
     fieldset {
         border-radius: 8px 0 0 8px;
+        padding: 10px;
+        width: 50%;
     }
 
     .title {
-        padding: 20px 0;
+        padding: var(---padding);    
         font-size: 1.7em;
     }
 
@@ -62,9 +76,9 @@
     }
 
     .logo-login {
-        width: 555px;
         height: auto;
         border-radius: 0 8px 8px 0;
+        width: 50%;
     }
     
     label {
