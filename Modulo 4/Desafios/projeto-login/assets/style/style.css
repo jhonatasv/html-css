@@ -14,9 +14,11 @@
     ---backgroun-white: #fff;
     ---color-white: #fff;
     ---background-label: #a9a9a996;
+    ---color-label-title: #303030;
     ---background-btn-entrar:#5f9ea0d5;
-    ---backgroundtb-hover-senha: #6495ed;
-    --background-btn-hover: ;
+    ---background-hover-btn-entrar:#5f9ea093;
+
+    ---background-hover-senha: #6495ed;
     ---background-input-user: #ffffffd5;
 }
 
@@ -43,7 +45,8 @@ form {
     flex-direction: column-reverse;
     height: 519px;
     width: 249px;
-    transition: all 0.3s cubic-bezier(0.94, -0.05, 1, 1);
+    transition: all 0.3s cubic-bezier(0.94, -0.05, 1, 1); 
+    transition-timing-function: ease;
 }
 
 fieldset {
@@ -60,6 +63,7 @@ fieldset {
     font-weight: bold;
     text-align: center;
     padding-bottom: 11px;
+    color: var(---color-label-title);
 }
 
 p {
@@ -85,6 +89,7 @@ label {
     padding: 6px;
     border-radius: 5px;
     background-color: var(---background-label);
+    color: var(---color-label-title);
 }
 
 input {
@@ -111,7 +116,7 @@ input {
 }
 
 .btn-entrar:hover {
-    background-color: #5f9ea093;
+    background-color: var(---background-hover-btn-entrar);
 }
 
 .btn-recupera-senha {
@@ -127,7 +132,7 @@ input {
 }
 
 .btn-recupera-senha:hover {
-    background-color: var(---backgroundtb-hover-senha);
+    background-color: var(---background-hover-senha);
     color: var(---color-white);
 }
 
